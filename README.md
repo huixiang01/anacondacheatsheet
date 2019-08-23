@@ -84,17 +84,19 @@ conda activate <myenv>
 conda activate <myenv>
 jupyter-notebook
 ```
-### Install packages in the current environment:
 
+### Installing packages
+
+***Install packages in the current environment***
 ```bash
 conda install <packagename>
 ```
 
-### Install packages in the different environment:
-
+***Install packages in the different environment***
 ```bash
 conda install --name <myenv> <packagename>
 ```
+
 ### Search package to install:
 
 ```bash
